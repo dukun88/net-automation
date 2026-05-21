@@ -20,3 +20,7 @@ devices:
     host: "172.16.10.1"
     device_type: "juniper_junos"
     driver: "junos"
+
+  - name: "Mikrotik-Main-Router"
+    host: "192.168.88.1"
+    device_type: "mikrotik_routeros" # Driver untuk Netmiko
